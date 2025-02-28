@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #ff6b6b, #010001);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.navbar .logo:hover{
+  border: 2px solid black;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+}
+.nav-links li:hover{
+  border: 2px solid white;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+img{
+
+  height: 100vh; 
+  width: 100%;/* Full viewport height */
+  /* Replace with your image URL */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.bac-img{
+  .hero-content {
+/
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem; /* Adjust font size for bold heading */
+    font-weight: 700; /* Bold text */
+    margin-bottom: 1rem; /* Space below heading */
+    color: #333; /* Dark text for visibility */
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem; /* Slightly smaller font for paragraph */
+    font-weight: 400; /* Normal weight for paragraph */
+    color: #555; /* Subtle color for paragraph */
+    margin-bottom: 1.5rem; /* Space below paragraph */
+  }
+  
+}
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center-align text */
+  height: 100vh; /* Full viewport height */
+}
+
+.hero-content h1 {
+  font-size: 3rem; /* Adjust font size for bold heading */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 1rem; /* Space below heading */
+  color: #333; /* Dark text for visibility */
+}
+
+.hero-content p {
+  font-size: 1.2rem; /* Slightly smaller font for paragraph */
+  font-weight: 400; /* Normal weight for paragraph */
+  color: #555; /* Subtle color for paragraph */
+  margin-bottom: 1.5rem; /* Space below paragraph */
+}

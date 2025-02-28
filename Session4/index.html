@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Registration Form</h1>
+
+      <form action="" onsubmit="isValid()">
+        <input type="text" placeholder="Enter Your Name" id="name" />
+        <input type="email" placeholder="Enter Your Email " id="email" />
+        <input type="number" placeholder="Enter Your Phone Number" id="number" />
+        <input
+          type="number"
+          name=""
+          id="rolln"
+          placeholder="Enter your Roll Number"
+        />
+        <input type="password" placeholder="Enter Password" name="" id="pass"  />
+        <button type="submit">Register</button>
+      </form>
+
+      <script>
+        function isValid() {
+
+          var name=document.getElementById("name").value;
+          var email = document.getElementById("email").value;
+          var no = document.getElementById("number").value;
+          var roll = document.getElementById("rolln");
+          var pass= document.getElementById("pass").value;
+
+          if(!name){
+            alert("please enter the name");
+          }
+         if(!email.includes("@") ){
+            alert("please enter valid email address")
+          }
+          if(no.length!=10 || isNaN(no)){
+            alert("please enter the Mobile Number Correctly")
+        }
+        if(!roll){
+          alert("please enter roll number")
+        }
+        if(!pass){
+          alert
+        }
+      
+      </script>
+    </div>
+  </body>
+</html>
