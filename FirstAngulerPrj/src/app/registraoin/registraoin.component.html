@@ -1,63 +1,146 @@
-
 <style>
-  .container{
+  .reg {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    width: 300px;
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   }
-  .container form{
-    padding: 9px;
+
+  .container form {
+    width: 100%;
   }
-  .container form input{
-    padding: 4px;
-    margin: 4px;
+
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
   }
-  .container button{
-    margin-top: 20px;
-    margin-left: 110px;
+
+  table {
+    width: 100%;
   }
-  .container p{
-    margin-left: 70px;
+
+  th {
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
   }
-  .reg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  td {
+    padding: 8px;
+  }
+
+  input, select {
+    width: 95%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background: darkblue;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  p a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  p a:hover {
+    text-decoration: underline;
   }
 </style>
+
 <div class="reg">
   <div class="container">
     <form action="">
       <h1>Registration Form</h1>
       <table>
-  
         <tr>
           <th>Name:</th>
-          <td><input type="text" name="" id=""></td>
+          <td><input type="text" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+          <th>Username:</th>
+          <td><input type="text" placeholder="Choose a username"></td>
         </tr>
         <tr>
           <th>Email:</th>
-          <td><input type="text" name="" id=""></td>
+          <td><input type="email" placeholder="Enter your email"></td>
         </tr>
         <tr>
-          <th>Passwprd:</th>
-          <td><input type="text" name="" id=""></td>
+          <th>Password:</th>
+          <td><input type="password" placeholder="Enter password"></td>
         </tr>
         <tr>
-          <th>Number:</th>
-          <td><input type="text" name="" id=""></td>
+          <th>Confirm Password:</th>
+          <td><input type="password" placeholder="Confirm password"></td>
+        </tr>
+        <tr>
+          <th>Phone Number:</th>
+          <td><input type="text" placeholder="Enter 10-digit number"></td>
+        </tr>
+        <tr>
+          <th>College:</th>
+          <td><input type="text" placeholder="Enter college name"></td>
+        </tr>
+        <tr>
+          <th>Date of Birth:</th>
+          <td><input type="date"></td>
+        </tr>
+        <tr>
+          <th>Gender:</th>
+          <td>
+            <select>
+              <option value="" disabled selected>Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Address:</th>
+          <td><input type="text" placeholder="Enter your address"></td>
         </tr>
       </table>
   
       <button>Register</button>
-      <p>Already register? <a href="login">Login</a></p>
+      <p>Already registered? <a href="login">Login</a></p>
   
     </form>
   </div>
-
 </div>
-
-
-

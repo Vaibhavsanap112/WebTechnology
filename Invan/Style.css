@@ -1,0 +1,82 @@
+.heading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: aqua;
+
+}
+body{
+ text-align: center;
+}
+.content{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(2, 244, 244);
+  width: 490px;
+ margin-left: 35%;
+ padding: 9px;
+ background-color: bisque;
+}
+.content .add{
+  text-align: center;
+
+}
+.content .add h4{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ border: 2px solid black;
+ height: 29px;
+ width: 200px;
+  margin-left: 115px;
+}
+.content .add .tab input{
+  width: 250px;
+  padding: 10px;
+}
+.content .add .tab td{
+  padding: 5px;
+}
+.content .add button{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 180px;
+  border-radius: 18px;
+  margin-top: 4px;
+}
+.content .add button:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.show{
+  margin-left: 115px;
+}
+.show button{
+ padding: 9px;
+   width: 290px;
+  margin-top: 30px;
+  border-radius:107px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.show button:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+
+}
+.show button a{
+  text-decoration: none;
+  
+}
